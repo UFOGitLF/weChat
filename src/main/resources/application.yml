@@ -1,0 +1,13 @@
+weChat:
+   appId: wx6481f43c35d6b1f2
+   appSecret: d13e6b5698d8ec09cfb32e47164064e4
+   getTokenUrl: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=SECRET
+   createMenuUrl: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=
+   sendMsgUrl: https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=
+   ###auth
+   codeUrl: https://open.weixin.qq.com/connect/oauth2/authorize
+   accessTokenUrl: https://api.weixin.qq.com/sns/oauth2/access_token
+   userInfoUrl: https://api.weixin.qq.com/sns/userinfo
+   redirectUrl: http://yktest.tunnel.qydev.com/api/public/auth
+   ##other
+   path: /home/wx/test
